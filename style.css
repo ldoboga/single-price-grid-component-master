@@ -107,3 +107,34 @@ button{
     margin-right: 24vw;
     line-height: 6vw;
 }
+
+@media(min-width: 768px){
+    .main{
+        grid-template-columns: repeat(2,50%);
+        grid-template-rows: repeat(2,auto);
+        margin: 6vw 0;
+    }
+    .a{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .a h1{margin: 3vw 6vw; margin-top: 6vw;}
+    .a h2{margin: 3vw 6vw;}
+    .a p{margin: 3vw 6vw;margin-bottom: 6vw; line-height: 3vw;}
+    .b{border-bottom-left-radius: 0.4em;}
+    .precio{margin: 3vw 6vw;}
+    .boca{margin: 3vw 6vw;}
+    button{
+        width: 33vw;
+        margin: 3vw 6vw;
+        height: 5vw;
+    }
+    .c{border-bottom-left-radius: 0;}
+    .c h2{
+        margin: 3vw 6vw;
+    }
+    .c p{
+        line-height: 3vw;
+        margin: 3vw 6vw;
+    }
+}
