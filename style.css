@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Karla';
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.main{
+    margin: 12vw 0;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: 100%;
+    justify-content: center;
+    width: 90%;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.15);
+    border-radius: 0.4em;
+}
+
+.a{
+    border-top-left-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+    background-color: white;
+}
+.a h1{
+    font-size: calc(1.2em + 1.1vw);
+    color: hsl(179, 62%, 43%);
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 6vw;
+    font-weight: 700;
+}
+.a h2{
+    font-size: calc(0.9em + 1vw);
+    color: hsl(71, 73%, 54%);
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 6vw;
+}
+.a p{
+    font-size: calc(0.8em + 1vw);
+    color: hsl(218, 22%, 67%);
+    margin: 6vw;
+    line-height: 8vw;
+}
+.b{
+    background-color: hsl(179, 70%, 36%);
+}
+.b h2{
+    font-size: calc(1em + 1vw);
+    color: white;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 6vw;
+}
+.boca{
+    font-size: calc(1em + 1vw);
+    color: hsl(204, 43%, 93%);
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 6vw;
+}
+span{
+    font-size: calc(1.5em + 1.5vw);
+    color: white;
+}
+.precio{
+    font-size: calc(0.8em + 1vw);
+    color: white;
+    margin: 6vw;
+}
+button{
+    margin: 6vw;
+    padding: 1.5em;
+    width: 78vw;
+    border-radius: 0.8em;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    outline: none;
+    color: white;
+    font-weight: 700;
+}
+.c{
+    border-bottom-left-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    background-color: hsl(179, 62%, 43%);
+}
+.c h2{
+    margin: 6vw;
+    font-size: calc(1em + 1vw);
+    color: white;
+}
+.c p{
+    font-size: calc(0.8em + 1vw);
+    color: hsl(204, 43%, 93%);
+    margin-top: 6vw;
+    margin-left: 6vw;
+    margin-bottom: 6vw;
+    margin-right: 24vw;
+    line-height: 6vw;
+}
