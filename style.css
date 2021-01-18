@@ -132,6 +132,7 @@ button{
     .c{border-bottom-left-radius: 0;}
     .c h2{
         margin: 3vw 6vw;
+        margin-top: 6vw;
     }
     .c p{
         line-height: 3vw;
